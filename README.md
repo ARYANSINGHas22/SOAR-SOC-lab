@@ -42,7 +42,7 @@ n8n as a standalone container, bridged onto the same Docker network for integrat
 | Windows failed login | 60122 | Repeated failed auth attempts | ✅ Confirmed end-to-end |
 | SMB brute force | 92032 / 92052 | nmap SMB enumeration/brute force from Kali | ✅ Confirmed end-to-end |
 
-See [`docs/attack-scenarios.md`](docs/attack-scenarios.md) for full detection logic and sample alerts.
+See [`docs/attack-scenarios.md`](docs/attack-scenarios.md) for full detection logic .
 
 *(Roadmap: expanding to 2–3 additional MITRE ATT&CK-mapped scenarios — see Future Work.)*
 
@@ -88,7 +88,7 @@ Full day-by-day debugging log: [`docs/troubleshooting-log.md`](docs/troubleshoot
 
 ## Setup / Reproduction
 
-> Full setup steps in [`docs/architecture.md`](docs/architecture.md). Requires Docker, Docker
+> Requires Docker, Docker
 > Compose, a Slack workspace with an Incoming Webhook configured, and network connectivity
 > between a Windows agent, Kali attacker VM, and the Wazuh manager host.
 
@@ -104,8 +104,6 @@ Full day-by-day debugging log: [`docs/troubleshooting-log.md`](docs/troubleshoot
 ## Disclaimer
 
 This is a personal home lab for educational and portfolio purposes. All IPs, hostnames, and
-credentials in this repo are sanitized/placeholder values — see `.gitignore` and `configs/` for
-sanitized samples only.
-
+credentials in this repo are sanitized/placeholder values .
 ---
-**Author:** Aryan | Cybersecurity student, SOC L1 portfolio project
+**Author:** Aryan | Cybersecurity student, SOC Project
